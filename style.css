@@ -49,10 +49,14 @@ div a{
     padding-left: 1%;
 }
 .massage{
-    margin-left: 13%;
+    margin-left: 8%;
     font-size: large;
     padding-top: 13px;
-    padding-left: 30%;
+    padding-left: 0%;
+}
+.massage2{
+    margin-left: 6%;
+    font-size: xx-large;
 }
 .button1{
     background-color: navy;
@@ -60,7 +64,7 @@ div a{
     height: 2rem;
     width: 6rem;
     border-radius: 8px;
-    box-shadow: 4px 4px 6px black;
+    box-shadow: 4px 4px 10px black;
     border-top: 2px solid red;
     border-bottom: 2px solid blue;
     border-left:2px solid yellow;
@@ -111,14 +115,17 @@ div a{
     width: 400px;
     margin-right: 0%;
     border: 3px solid rgb(206, 197, 199);
-    transition: 1s;
+    transition: 200ms;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
+    border-top:2px solid red;
+    border-bottom:2px solid yellow;
+    border-left:2px solid green;
 }
 .input:hover{
-    border-top:4px solid red;
-    border-bottom:4px solid yellow;
-    border-left:4px solid green;
+    border-top:3px solid red;
+    border-bottom:3px solid yellow;
+    border-left:3px solid green;
 }
 .search{
     padding-top: 15px;
@@ -128,10 +135,15 @@ div a{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 30px;
-    transition: 1s;
+    transition: 200ms;
+    border-top:2px solid red;
+    border-bottom:2px solid yellow;
+    border-right:2px solid blue;
+
 }
 .search:hover{
-    border-top:4px solid red;
-    border-bottom:4px solid yellow;
-    border-right: 4px solid blue;
+    background-color:green;
+    border-top:3px solid red;
+    border-bottom:3px solid yellow;
+    border-right: 3px solid blue;
 }
