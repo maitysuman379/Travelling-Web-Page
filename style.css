@@ -38,14 +38,21 @@ div a{
 }
 .travel{
     font-size: xx-large; 
-    margin-left: 20px;
+    margin-left: 0px;
+    /* text-shadow: 5px 5px 4px black; */
 }
 .logo{
     margin-left: 10px;
 }
 .button{
     padding-top: 6px;
-    padding-left: 53%;
+    padding-left: 1%;
+}
+.massage{
+    margin-left: 13%;
+    font-size: large;
+    padding-top: 13px;
+    padding-left: 30%;
 }
 .button1{
     background-color: navy;
@@ -87,4 +94,44 @@ div a{
     border-bottom: 3px solid blue;
     border-left:3px solid yellow;
     border-right: 3px solid green;
+}
+.background-image{
+    background-image: url("image/travel_1.jpg");
+    height:660px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.slider{
+    size: 100px;
+    padding-left: 5px;
+    padding-top: 14px;
+    margin-right: 3%;
+}
+.input{
+    width: 400px;
+    margin-right: 0%;
+    border: 3px solid rgb(206, 197, 199);
+    transition: 1s;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.input:hover{
+    border-top:4px solid red;
+    border-bottom:4px solid yellow;
+    border-left:4px solid green;
+}
+.search{
+    padding-top: 15px;
+    background-color: white;
+    margin-right: 18%;
+    border: 3px solid rgb(206, 197, 199);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 30px;
+    transition: 1s;
+}
+.search:hover{
+    border-top:4px solid red;
+    border-bottom:4px solid yellow;
+    border-right: 4px solid blue;
 }
